@@ -1,0 +1,36 @@
+Refer to the flowcharts you have created for these problems and convert them into Python code.
+
+Write a program to take two numbers as input and check if the sum of these numbers is equal to 12.
+
+Write a program to take 2 numbers as input and print the maximum of the two numbers.
+
+Deepali runs an auction where customers mention the price they are ready to pay for a painting. On average she gets three prices for a painting and it is then sold to the person quoting the highest price. Write a program for Deepali to enter the three prices and print which one is the highest and gets the painting. (Without using AND/OR)
+
+Write a program for finding the 2nd maximum number from 3 numbers given as input. (Without using AND / OR)
+
+Write a program to take two numbers A and B as input from the user and print the number closest to (but less than) A which completely divides the number. 
+For example:
+
+A = 23, B = 7	
+For the above case, 21 is the number closest to 23 (A) which is completely divisible by B i.e, 7.
+
+A = 13, B = 5
+For the above case, 10 is the number closest to 13 (A) which is completely divisible by B i.e, 5.
+
+Write a program to take a number as input from the user and print:
+“Bingo” - If the number is even and >200
+“Ringo” - If the number is odd and <200
+“CodeChef” - for any other number 
+Note: You cannot use and/or operator
+
+Sunderlal is a trader who buys and sells wrist watches. For a particular trade, he wants to check if a trade was a profit or a loss. Write a program for Mr Sunderlal to enter his cost and selling price, and indicate whether the trade he made was a profit or a loss. 
+If SP>CP: Profit
+SP<CP: Loss
+SP equals CP: no profit, no loss
+Write a program for Mr. Sunderlal to enter his cost price and selling price, calculate his profit or loss and display the same. 
+
+
+A teacher has divided her classroom into groups of 5 based on their roll numbers. The last roll number of each group has been elected as the leader of the group who will manage the tasks performed by the group. Write a program for the teacher to enter the roll number of the student and check if he/she is a Group Leader or not?
+
+
+Roller Coasters require children to have a minimum height of 5 feet. Any child below this height is generally not allowed on them. Write a program to accept a child’s height and display if he or she will be allowed to ride or not. 

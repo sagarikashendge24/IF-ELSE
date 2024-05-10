@@ -1,0 +1,242 @@
+age1=int(input("enter first person age"))
+age2=int(input("enter second person age"))
+age3=int(input("enter third person age"))
+age4=int(input("enter fourth person age"))
+if age1>age2>age3>age4:
+    print("age1 is youngest")
+elif age1>age2>age4>age3:
+    print("age1 is youngest")
+elif age1>age3>age4>age2:
+    print("age1 is youngest")
+elif age1>age3>age2>age4:
+    print("age1 is youngest")
+elif age1>age4>age3>age2:
+    print("ahe1 is youngest")
+elif age1>age4>age2>age1:
+    print("age1 is youngest")
+elif age2>age1>age3>age4:
+    print("age2 is youngest")
+elif age2>age1>age4>age3:
+    print("age2 is youngest")
+elif age2>age4>age1>age3:
+    print("age2 is youngest")
+elif age2>age4>age3>age1:
+    print("age2 is youngest")
+elif age2>age3>age4>age1:
+    print("age2 is youngest")
+elif age2>age3>age1>age4:
+    print("age2 is youngest")
+elif age3>age2>age1>age4:
+        print("age3 is youngest")
+elif age3>age2>age4>age1:
+    print("age3 is youngest")
+elif age3>age4>age1>age2:
+    print("age3 is youngest")
+elif age3>age4>age2>age1:
+    print("age3 is youngest")
+elif age3>age1>age2>age4:
+    print("ahe3 is youngest")
+elif age3>age1>age4>age2:
+    print("age3 is youngest")
+elif age4>age1>age3>age2:
+    print("age4 is youngest")
+elif age4>age1>age2>age3:
+    print("age4 is youngest")
+elif age4>age2>age1>age3:
+    print("age4 is youngest")
+elif age4>age2>age3>age1:
+    print("age4 is youngest")
+elif age4>age3>age2>age1:
+    print("age4 is youngest")
+elif age4>age3>age1>age2:
+    print("age4 is youngest")
+else:
+    print("invalid")
+
+
+
+num1=int(input("enter the first number"))
+num2=int(input("enter the second number"))
+sym=input("enter the symbol")
+if sym=="+":
+    print(num1+num2)
+elif sym=="-":
+    print(num1-num2)
+elif sym=="*":
+    print(num1*num2)2
+elif sym=="%":
+    print(num1%num2)
+else :
+    print("enter the valid symbol")
+
+
+
+num1=int(input("ENTER THE FIRST NUMBER"))
+num2=int(input("ENTER THE SECOND NUMBER"))
+num3=int(input("ENTER THE THIRD NUMBER"))
+if num1<num2 and num2<num3:
+    print("THE SMALLEST NUMBER IS ",num1)
+if num2<num1 and num2<num3:
+    print("THE SMALLEST NUMBER IS" ,num2)
+if num3<num1 and num3<num2:
+    print("THE SMALLEST NUMBER IS ",num3)
+
+
+
+fs=int(input("ENTER THE FIRST SIDE"))
+ss=int(input("ENTER THE SECOND SIDE"))
+ts=int(input("ENTER THE THIRD SIDE"))
+if fs==ss and ss==ts:
+    print("IT IS AN EQUILATERAL TRIANGLE")
+if fs!=ss and fs!=ts and ss!=ts:
+    print("IT IS SCALENE TRIANGLE")
+if (fs==ss and ss!=ts) or (ss==ts and ss!=fs) or (fs==ts and fs!=ss):
+    print("IT IS EQUILATERAL TRIANGLE")
+
+
+
+
+marks =int(input("enter the persent"))
+if marks > 90:
+ print("GRADE A")
+if marks > 80 :
+ print("GRADE B") 
+if marks >= 60 :
+ print("GRADE C") 
+if marks < 60:
+ print("GRADE D")
+
+
+
+
+
+per=int(input("ENTER THE PERSENTAGE"))
+if per<25:
+  print("GRADE D")
+elif per>25 and per<=45:
+  print("GRADE C")
+elif per>45 and per<=50:
+  print("GRADE B")
+elif per>50 and per<=60:
+  print("GRADE B+")
+elif per>60 and per<=80:
+  print("GRADE A")
+elif per>80:
+  print("GRADE A+")
+
+
+
+
+num1=int(input("Enter the first number"))
+num2=int(input("Enter the second number"))
+if num1 > num2:
+    print("NUM1 IS GREATER THAN NUM2")
+elif num2 > num1 :
+    print("NUM2 IS GRATER THAN NUM1")    
+else :
+    print("NUM1 IS EQUAL TO NUM2")
+                      
+
+
+
+year=int(input("ENTER THE YEAR"))
+if year%4==0:
+    print("THIS IS LEAP YEAR")
+else:
+    print("IT IS NOT LEAP YEAR")
+
+
+
+a=int(input("Enter the total number of working days"))
+b=int(input("Enter the total number of absent"))
+js=(a-b)/a*100
+print("your attendence is ",js)
+if js<75:
+    print("You cannot sit for exam")
+else :
+    print("you can sit for exam")
+
+
+
+
+
+sal=int(input("ENTER YOUR SALARY"))
+ser=int(input("HOW MANY YEARS DO YOU WORK"))
+if ser>5:
+    print("BONUS WILL BE",.05*sal)
+else:
+    print("NO BONUS")
+
+
+
+
+num1=int(input("enter the number"))
+num2=int(input("enter the number"))
+num3=int(input("enter the number"))
+if num1>num2>num3:
+    print("num2 is second great number")
+elif num3>num2>num1:
+    print("num2 is second great number")
+elif num2>num1>num3:
+    print("num1 is second great number")
+elif num3>num1>num2:
+    print("num1 is second great number")
+elif num1>num3>num2:
+    print("num3 is second great number")
+elif num2>num3>num1:
+    print("num1 is second great number")
+else:
+    print("not valid")
+
+
+
+tem=int(input("enter the temperature"))
+bp=100
+if tem==bp:
+    print("It is a boiling point")
+elif tem>bp:
+    print("Temperature is more than boiling point")
+elif tem<bp:
+    print("Temperature is less than boiling point")
+else:
+    print("Normal temperature")
+
+
+
+
+a=int(input("ENTER THE FIRST SIDE"))
+b=int(input("ENTER THE SECOND SIDE"))
+c=int(input("ENTER THE THIRD SIDE"))
+if a+b+c==120:
+    print("IT IS A TRIANGLE")
+else :
+    print("IT IS NOT A TRIANGLE")
+
+
+
+a=(input("ENTER THE CHARECTER"))
+b="aeiouAEIOU"
+if a in b:
+   print("IT IS VOWELS")
+else:
+    print("IT IS NOT VOWEL")
+
+
+
+num=int(input("Enter any no from 1 to 7"))
+if num==1:
+    print("SUNDAY")
+elif num==2:
+    print("MONDAY")
+elif num==3:
+    print("TUESDAY")
+elif num==4:
+     print("WEDNESDAY")
+elif num==5:
+    print("THURSDAY")
+elif num==6:
+    print("FRIDAY")
+elif num==7:
+    print("SATURDAY")
+else:
+     print("please enter no between 1 to 7")
